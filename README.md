@@ -1,7 +1,8 @@
-# Pass-The-File-MultiGame-DataFile
+# MultiGame-DataFile - Pass-The-File
 
 ## Context
 This game jam is all about sharing a single save file, across multiple games. How you use the data within, is fully up to you!
+The <b>M</b>ulti <b>G</b>ame <b>D</b>ata <b>F</b>ile is designed to be used in many ways, by many games.
 
 ## Rules
 - All games must use the save file provided by the jam.
