@@ -43,4 +43,23 @@ public class SaveGameData
     {
         File.WriteAllText(path, JsonUtility.ToJson(current));
     }
+
+    public static bool TryLoadFromArgs()
+    {
+        var args = Environment.GetCommandLineArgs();
+        for (int i = 0; i < args.Length - 1; i++)
+        {
+            if (string.Equals(args[i], "-load", StringComparison.OrdinalIgnoreCase))
+            {
+                var filePath = args[i + 1];
+                if (string.Equals(Path.GetExtension(filePath), ".mgdf", StringComparison.OrdinalIgnoreCase) && File.Exists(filePath))
+                {
+                    LoadFromFile(filePath);
+                    return true;
+                }
+                break;
+            }
+        }
+        return false;
+    }
 }
