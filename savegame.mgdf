@@ -1,0 +1,13 @@
+{
+  "integer_one": 0,
+  "integer_two": 0,
+  "integer_three": 0,
+  "integer_four": 0,
+
+  "float_one": 0.0,
+  "float_two": 0.0,
+  "float_three": 0.0,
+
+  "vector_one": { "x": 0.0, "y": 0.0, "z": 0.0 },
+  "vector_two": { "x": 0.0, "y": 0.0, "z": 0.0 }
+}
