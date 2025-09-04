@@ -1,0 +1,13 @@
+{
+  "name": "My Game",
+  "author": "Awesome Dev",
+  "version": "0.1a",
+  "jam": "MGDF Pass The File 2025-1",
+  "oneliner": "Play the game to win!",
+  "description": "This game was made for the 'MGDF Pass The File 2025-1' Gamejam. I hope you enjoy my little game.",
+  "titlescreen": "titlescreen.png",
+  "screenshots": [
+    "screenshot1.png",
+    "screenshot2.png"
+  ]
+}
